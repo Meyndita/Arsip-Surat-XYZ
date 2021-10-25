@@ -49,7 +49,7 @@ class Arsip_model extends CI_Model
         public function upload($filename)
         {
           $config['upload_path'] = './assets/uploads/pdf/';
-          $config['allowed_types'] = 'pdf';
+          $config['allowed_types'] = '*';
           $config['file_name'] = $filename;
 
           $this->load->library('upload', $config);
@@ -62,6 +62,7 @@ class Arsip_model extends CI_Model
             return $return;
           }
         }
+        
 
         private function deleteFile($id)
         {

@@ -5,7 +5,9 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1 class="m-0">Arsip Surat</h1>
+                    <h1 class="col-md-6">Arsip Surat</h1>
+                    <p class="fst-italic col-md-12">Berikut ini adalah surat-surat yang telah terbit dan diarsipkan <br>
+                    Klik "Lihat" pada kolom aksi untuk menampilkan surat</p>
                     </div><!-- /.col -->
                 </div><!-- /.row -->
             </div><!-- /.container-fluid -->
@@ -24,6 +26,8 @@
                                 <div class="card-body p-0">
                                     <form method="POST">
                                         <div class="input-group mb-3">
+                                            <p >Cari Surat</p>
+
                                             <input type="text" name="search" placeholder="cari" class="form-control"
                                                 value="<?= $searchVal ?>">
                                             <div class="input-group-append">

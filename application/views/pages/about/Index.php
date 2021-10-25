@@ -30,17 +30,17 @@
                         <div class="row no-gutters">
                             <div class="col-md-4">
 
-                                <img src="<?= base_url('assets/dist/img/foto_winandri.jpg') ?>" class="card-img"
+                                <img src="<?= base_url('assets/dist/img/foto_mey.png') ?>" class="card-img"
                                     alt="..." width="60%">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
 
-                                    <h5 class="card-title text-dark"><b>Nama</b>&nbsp;: Winandri Kusuma</h5>
+                                    <h5 class="card-title text-dark"><b>Nama</b>&nbsp;: Mey Ndita Nur Aini</h5>
                                     <br>
-                                    <h5 class="card-title text-dark"><b>NIM</b>&nbsp;: 1831710020</h5>
+                                    <h5 class="card-title text-dark"><b>NIM</b>&nbsp;: 1831710049</h5>
                                     <br>
-                                    <h5 class="card-title text-dark"><b>Tgl.Pembuatan</b>&nbsp;: 23 Oktober 2021</h5>
+                                    <h5 class="card-title text-dark"><b>Tgl.Pembuatan</b>&nbsp;: 25 Oktober 2021</h5>
                                     </p>
                                 </div>
                             </div>
